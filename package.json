@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@vituum/vite-plugin-twig": "^1",
+    "less": "^4.4.2",
+    "vite": "^7.1.11",
+    "vite-plugin-html-minifier": "^1.0.5",
+    "vituum": "^1"
+  },
+  "license": "UNLICENSED",
+  "name": "blank",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "version": "1.0.0",
+  "type": "module"
+}

@@ -1,0 +1,21 @@
+{%
+	set menuItems = [
+		{ path: "/", title: "Main page" },
+		{ path: "/about", title: "About page" }
+	]
+%}
+
+<div class="header__menu">
+	<ul class="header__menu__list">
+		{% for menuItem in menuItems %}
+			<li class="header__menu__item">
+				<a
+					class="header__menu__link"
+					href="{{ menuItem.path }}"
+				>
+					{{ menuItem.title }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</div>
